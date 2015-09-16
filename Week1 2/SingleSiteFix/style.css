@@ -16,12 +16,12 @@ body {
   font-size: 18px;
 }
 
-#backstretch {
+/*#backstretch {
   background-image:url(images/landing.jpg);
   width:5vw;
   margin:0 auto;
   position: absolute;
-  /*left: 0px; 
+  left: 0px; 
   top: 0px; 
   overflow: hidden; 
   margin: 0px; 
@@ -29,8 +29,8 @@ body {
   height: 630px; 
   width: 3165px; 
   z-index: -999998px; 
-  position: absolute;*/
-}
+  position: absolute;
+}*/
 
 #logo a{
   position: absolute;
@@ -118,6 +118,10 @@ nav #menu a:hover {
   width:100%;
   height: 100%;
   overflow: hidden;
+  background-image:url(images/landing.jpg);
+  background-size:cover;
+  display: block;
+
 }
 
 #rock{
